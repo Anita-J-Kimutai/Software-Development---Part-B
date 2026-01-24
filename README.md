@@ -48,12 +48,12 @@ TMS.py - Source code
 Tasks.json - Persistently stores data 
 README.md	Project documentation
 
-Running the Application
+RUNNING THE APPLICATION
 Requirements:
 
 Install Python 3.14.0
 
-Steps
+STEPS
 
 Save the Python file as TMS.py
 
@@ -62,8 +62,6 @@ Open Command Prompt or Terminal.
 Navigate to the folder containing the file.
 
 Run the program using: python TMS.py
-
-
 
 The System's menu will appears.
 
@@ -79,7 +77,6 @@ Mark Task as Completed — enables a user to update task status
 Delete Task - allows user to erase a task from the list
 
 Exit - closes the program
-
 
 DATA STORAGE
 The tasks are persistently store in a file named Tasks,json in JSON format allow the tasks to be saved and generated automatically evey time you program the run
