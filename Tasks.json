@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Web development",
+    "due_date": "2026-02-02",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "title": "Software development",
+    "due_date": "2026-02-28",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Professional development",
+    "due_date": "2026-02-05",
+    "completed": true
+  },
+  {
+    "id": 4,
+    "title": "Go for a walk",
+    "due_date": "2026-02-01",
+    "completed": false
+  }
+]
