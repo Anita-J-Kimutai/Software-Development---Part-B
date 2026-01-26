@@ -3,7 +3,7 @@ TASK MANAGEMENT SYSTEM
 OVERVIEW
 
 This program is a command-line application built in python.
-It allows a user to create, delete, update and view tasks from a list.
+It allows a user to create, delete, update (mark them complete) and view tasks from a list.
 It users file I/O to persistenly store tasks in a JSON file.
 The program demonstrates the use of fundamental programming concepts i.e.
 Dictionaries
