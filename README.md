@@ -13,6 +13,7 @@ Functions
 File handling
 Error handling
 User interaction
+Python buil-in libraries
 
 FEATURES
 
@@ -38,8 +39,10 @@ TECHNOLOGIES USED
 Python 3.14.0
 
 Built-in Python modules:
-Os – for managing file operations
-JSON – for structured task storage
+os – for managing file operations
+json – for structured task storage
+datetime - validates due dates
+
 
 PROJECT FILES
 
@@ -79,23 +82,24 @@ Delete Task - allows user to erase a task from the list
 Exit - closes the program
 
 DATA STORAGE
-The tasks are persistently store in a file named Tasks,json in JSON format allow the tasks to be saved and generated automatically evey time you program the run
+The tasks are persistently store in a file named Tasks.json in JSON format allow the tasks to be saved and generated automatically evey time you program the run
 
 
 Below is an example of a recorded task:
  {
-    "S/No": 1,
-    "Title": "Web development",
-    "Due_date": "2026-01-25",
+    "id": 1,
+    "title": "Web development",
+    "due_date": "2026-02-02",
     "completed": true
-  }
-
+  },
+  
 ERROR HANDLING
 
 The system incorporates error handling to manage:
 
 Non-numeric serial number inputs
 Invalid menu selections
+Invalide date format
 Empty fields i.e. due date/task description
 User-friendly messages to guide users on errors
 
