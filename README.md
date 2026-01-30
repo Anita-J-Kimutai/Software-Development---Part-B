@@ -39,9 +39,9 @@ TECHNOLOGIES USED
 Python 3.14.0
 
 Built-in Python modules used:
-os – for managing file operations
-json – for structured task storage
-datetime - validates due dates
+os – for managing file operations,
+json – for structured task storage,
+datetime - validates due dates.
 
 
 PROJECT FILES
