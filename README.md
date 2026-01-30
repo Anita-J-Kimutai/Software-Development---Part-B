@@ -47,9 +47,9 @@ datetime - validates due dates
 PROJECT FILES
 
 File Name	Description
-TMS.py - Source code
-Tasks.json - Persistently stores data 
-README.md - Project documentation
+TMS.py - Source code,
+Tasks.json - Persistently stores data,
+README.md - Project documentation.
 
 RUNNING THE APPLICATION
 Requirements:
@@ -97,11 +97,11 @@ ERROR HANDLING
 
 The system incorporates error handling to manage:
 
-Non-numeric serial number inputs
-Invalid menu selections
-Invalid date format
-Empty fields i.e. due date/task description
-User-friendly messages to guide users on errors
+Non-numeric serial number inputs,
+Invalid menu selections,
+Invalid date format,
+Empty fields i.e. due date/task description,
+User-friendly messages to guide users on errors.
 
 DOCUMENTATION
 
